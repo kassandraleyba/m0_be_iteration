@@ -3,6 +3,6 @@
 
 weather_options = ["sunny", "snowy", "freezing", "partly cloudy", "drizzly"]
 
-weather_options.each do |weather_options|
-    puts "Today the weather will be #{weather_options}."
+weather_options.each do |weather_option|
+    puts "Today the weather will be #{weather_option}."
 end
